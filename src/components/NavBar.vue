@@ -14,7 +14,6 @@
 </template>
 
 <script lang="ts">
-import { def } from "@vue/shared";
 import { defineComponent,PropType } from "vue";
 import { navItem } from "../config/navConfig";
 export default defineComponent({
