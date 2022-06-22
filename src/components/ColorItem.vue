@@ -32,7 +32,7 @@ export default defineComponent({
     item: {
       type: Object as PropType<Item>,
       require: true,
-      default: {
+      default:{
         title: "",
         css: "",
         color1: "",

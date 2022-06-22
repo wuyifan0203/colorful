@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>zoom-cursor</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,12 C24,18.63 18.627,24 12,24 C5.372,24 0,18.63 0,12 C0,5.37 5.372,0 12,0 C18.627,0 24,5.37 24,12 L24,12 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.168846241 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="zoom-cursor" transform="translate(3.000000, 3.000000)">
+            <g id="Page-1">
+                <g id="zoom-cursor">
+                    <g id="SvgjsSvg1000">
+                        <g id="SvgjsPath1007">
+                            <g id="path-1-link" fill="black" fill-opacity="1">
+                                <g id="path-1">
+                                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                            <g id="path-1-link" fill="#FFFFFF">
+                                <path d="M24,12 C24,18.63 18.627,24 12,24 C5.372,24 0,18.63 0,12 C0,5.37 5.372,0 12,0 C18.627,0 24,5.37 24,12 L24,12 Z" id="path-1"></path>
+                            </g>
+                        </g>
+                        <g id="magnifying-glass" transform="translate(6.000000, 6.000000)" fill="#1A1A1B">
+                            <g id="Capa_1">
+                                <path d="M11.8949002,11.3880266 L8.97871397,8.47184035 C9.76097561,7.57250554 10.2345898,6.39911308 10.2345898,5.11662971 C10.2345898,2.29356984 7.9383592,0 5.11796009,0 C2.29490022,0 0.00133037694,2.2962306 0.00133037694,5.11662971 C0.00133037694,7.93702882 2.29756098,10.2332594 5.11796009,10.2332594 C6.40044346,10.2332594 7.57383592,9.75964523 8.47317073,8.97738359 L11.389357,11.8935698 C11.4585366,11.9627494 11.551663,12 11.6421286,12 C11.7325942,12 11.8257206,11.9654102 11.8949002,11.8935698 C12.0332594,11.7552106 12.0332594,11.5263858 11.8949002,11.3880266 L11.8949002,11.3880266 Z M0.717073171,5.11662971 C0.717073171,2.69002217 2.69135255,0.718403548 5.11529933,0.718403548 C7.54190687,0.718403548 9.5135255,2.69268293 9.5135255,5.11662971 C9.5135255,7.5405765 7.54190687,9.51751663 5.11529933,9.51751663 C2.69135255,9.51751663 0.717073171,7.54323725 0.717073171,5.11662971 L0.717073171,5.11662971 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -14,12 +14,23 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { def } from "@vue/shared";
+import { defineComponent,PropType } from "vue";
+import { navItem } from "../config/navConfig";
 export default defineComponent({
   name: "navBar",
   props: {
-    title: String,
-    config: Array
+    title: {
+      type:String,
+      default:''
+    },
+    config: {
+      type:Object as PropType<navItem[]>,
+      default:{
+        target:'',
+        title:''
+      }
+    }
   },
   setup(props) {
   },
