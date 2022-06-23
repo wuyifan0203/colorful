@@ -196,6 +196,137 @@ export const styleConfig: Array<Item> = [
         css: 'background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);',
         index:'027'
     },
+    {
+        css: 'background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);',
+        color1: '#667eea',
+        color2: '#764ba2',
+        title: 'Plum Plate',
+        index:'028'
+    },
+    {
+        css: 'background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);',
+        color1: '#fdfcfb',
+        color2: '#e2d1c3',
+        title: 'Everlasting Sky',
+        index:'029'
+    },
+    {
+        css: 'background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);',
+        color1: '#89f7fe',
+        color2: '#66a6ff',
+        title: 'Happy Fisher',
+        index:'030'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);',
+        color1: '#fddb92',
+        color2: '#d1fdff',
+        title: 'Blessing',
+        index:'031'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);',
+        color1: '#9890e3',
+        color2: '#b1f4cf',
+        title: 'Sharpeye Eagle',
+        index:'032'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);',
+        color1: '#ebc0fd',
+        color2: '#d9ded8',
+        title: 'Ladoga Bottom',
+        index:'033'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);',
+        color1: '#96fbc4',
+        color2: '#f9f586',
+        title: 'Lemon Gate',
+        index:'034'
+    },
+    {
+        css: 'background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);',
+        color1: '#2af598',
+        color2: '#009efd',
+        title: 'Itmeo Branding',
+        index:'035'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);',
+        color1: '#cd9cf2',
+        color2: '#f6f3ff',
+        title: 'Zeus Miracle',
+        index:'036'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);',
+        color1: '',
+        color2: '',
+        title: 'Old Hat',
+        index:'037'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);',
+        color1: '',
+        color2: '',
+        title: 'Star Wine',
+        index:'038'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);',
+        color1: '#6a11cb',
+        color2: '#2575fc',
+        title: 'Deep Blue',
+        index:'039'
+    },
+    {
+        css: `background-color: #DCD9D4;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+        background-blend-mode: soft-light,screen;`,
+        color1: '',
+        color2: '',
+        title: 'Coup de Grace',
+        index:'040'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);',
+        color1: '#37ecba',
+        color2: '#72afd3',
+        title: 'Happy Acid',
+        index:'041'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);',
+        color1: '#ebbba7',
+        color2: '#cfc7f8',
+        title: 'Awesome Pine',
+        index:'042'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);',
+        color1: '#fff1eb',
+        color2: '#ace0f9',
+        title: 'New York',
+        index:'043'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);',
+        color1: '',
+        color2: '',
+        title: 'Shy Rainbow',
+        index:'044'
+    },
+    {
+        css: `background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+        background-blend-mode: multiply,multiply;`,
+        color1: '',
+        color2: '',
+        title: 'Loon Crest',
+        index:'045'
+    },
+
+
 
 
 

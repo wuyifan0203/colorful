@@ -3,10 +3,13 @@
     <span class="color_item_title">{{ item.index }} {{ item.title }}</span>
     <a href="" class="color_item_download_button">download</a>
     <div class="color_item_background" :style="item.css"></div>
-    <div class="color_item_color_box">
-      <span class="color_item_color">{{ item.color2 }}</span>
+    <div class="color_item_color_box" v-if="item.color1 !== '' || item.color2 !== ''">
+      <span class="color_item_color">{{ item.color1 }}</span>
       <span class="color_item_arrow_symbol">→</span>
       <span class="color_item_color">{{ item.color2 }}</span>
+    </div>
+    <div class="color_item_color_box" v-else>
+      <span class="color_item_color">Many colors</span>
     </div>
     <button class="color_item_copy_button" @click="copyEvent">Copy CSS</button>
     <div class="color_item_copy_css">
