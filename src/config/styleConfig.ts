@@ -325,6 +325,226 @@ export const styleConfig: Array<Item> = [
         title: 'Loon Crest',
         index:'045'
     },
+    {
+        css: 'background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);',
+        color1: '#c471f5',
+        color2: '#fa71cd',
+        title: 'Mixed Hopes',
+        index:'046'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);',
+        color1: '#48c6ef',
+        color2: '#6f86d6',
+        title: 'Fly High',
+        index:'047'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);',
+        color1: '',
+        color2: '',
+        title: 'Strong Bliss',
+        index:'048'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);',
+        color1: '#feada6',
+        color2: '#f5efef',
+        title: 'Fresh Milk',
+        index:'049'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);',
+        color1: '#e6e9f0',
+        color2: '#eef1f5',
+        title: 'Snow Again',
+        index:''
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);',
+        color1: '#accbee',
+        color2: '#e7f0fd',
+        title: 'February Ink',
+        index:'051'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);',
+        color1: '#e9defa',
+        color2: '#fbfcdb',
+        title: 'Kind Steel',
+        index:'052'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);',
+        color1: '#c1dfc4',
+        color2: '#deecdd',
+        title: 'Soft Grass',
+        index:'053'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);',
+        color1: '#0ba360',
+        color2: '#3cba92',
+        title: 'Grown Early',
+        index:'054'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);',
+        color1: '#00c6fb',
+        color2: '#005bea',
+        title: 'Sharp Blues',
+        index:'055'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);',
+        color1: '#74ebd5',
+        color2: '#9face6',
+        title: 'Shady Water',
+        index:'056'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);',
+        color1: '#6a85b6',
+        color2: '#bac8e0',
+        title: 'Dirty Beauty',
+        index:'057'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);',
+        color1: '#a3bded',
+        color2: '#6991c7',
+        title: 'Great Whale',
+        index:'058'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);',
+        color1: '#9795f0',
+        color2: '#fbc8d4',
+        title: 'Teen Notebook',
+        index:'059'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);',
+        color1: '#a7a6cb',
+        color2: '#8989ba',
+        title: 'Polite Rumors',
+        index:'060'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);',
+        color1: '',
+        color2: '',
+        title: '061',
+        index:'Sweet Period'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);',
+        color1: '',
+        color2: '',
+        title: 'Wide Matrix',
+        index:'062'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);',
+        color1: '',
+        color2: '',
+        title: 'Soft Cherish',
+        index:'063'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);',
+        color1: '#f43b47',
+        color2: '#453a94',
+        title: 'Red Salvation',
+        index:'064'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);',
+        color1: '',
+        color2: '',
+        title: 'Burning Spring',
+        index:'065'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);',
+        color1: '#0250c5',
+        color2: '#d43f8d',
+        title: 'Night Party',
+        index:'066'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);',
+        color1: '#88d3ce',
+        color2: '#6e45e2',
+        title: 'Sky Glider',
+        index:'067'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);',
+        color1: '#d9afd9',
+        color2: '#97d9e1',
+        title: 'Heaven Peach',
+        index:'068'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);',
+        color1: '#7028e4',
+        color2: '#e5b2ca',
+        title: 'Purple Division',
+        index:'069'
+    },
+    {
+        css: 'background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);',
+        color1: '#13547a',
+        color2: '#80d0c7',
+        title: 'Aqua Splash',
+        index:'070'
+    },
+    {
+        css: `background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+        background-blend-mode: normal, lighten, soft-light;`,
+        color1: '',
+        color2: '',
+        title: 'Above Clouds',
+        index:'071'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);',
+        color1: '',
+        color2: '',
+        title: 'Spiky Naga',
+        index:'072'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);',
+        color1: '#ff0844',
+        color2: '#ffb199',
+        title: 'Love Kiss',
+        index:'073'
+    },
+    {
+        css: `background: #C9CCD3;
+        background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+        background-blend-mode: lighten;`,
+        color1: '',
+        color2: '',
+        title: 'Sharp Glass',
+        index:'074'
+    },
+    {
+        css: 'background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);',
+        color1: '#93a5cf',
+        color2: '#e4efe9',
+        title: 'Clean Mirror',
+        index:'075'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #434343 0%, black 100%);',
+        color1: '#434343',
+        color2: '#000000',
+        title: 'Premium Dark',
+        index:'076'
+    },
 
 
 
