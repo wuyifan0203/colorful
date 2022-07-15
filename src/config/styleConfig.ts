@@ -545,6 +545,217 @@ export const styleConfig: Array<Item> = [
         title: 'Premium Dark',
         index:'076'
     },
+    {
+        css: 'background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);',
+        color1: '',
+        color2: '',
+        title: 'Cold Evening',
+        index:'077'
+    },
+    {
+        css: 'background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);',
+        color1: '#93a5cf',
+        color2: '#e4efe9',
+        title: 'Cochiti Lake',
+        index:'078'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);',
+        color1: '#92fe9d',
+        color2: '#00c9ff',
+        title: 'Summer Games',
+        index:'079'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);',
+        color1: '#ff758c',
+        color2: '#ff7eb3',
+        title: 'Passionate Bed',
+        index:'080'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #868f96 0%, #596164 100%);',
+        color1: '#868f96',
+        color2: '#596164',
+        title: 'Mountain Rock',
+        index:'081'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);',
+        color1: '#c79081',
+        color2: '#dfa579',
+        title: 'Desert Hump',
+        index:'082'
+    },
+    {
+        css: 'background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);',
+        color1: '#8baaaa',
+        color2: '#ae8b9c',
+        title: 'Jungle Day',
+        index:'083'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);',
+        color1: '#f83600',
+        color2: '#f9d423',
+        title: 'Phoenix Start',
+        index:'084'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);',
+        color1: '#b721ff',
+        color2: '#21d4fd',
+        title: 'October Silence',
+        index:'085'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);',
+        color1: '#6e45e2',
+        color2: '#88d3ce',
+        title: 'Faraway River',
+        index:'086'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);',
+        color1: '#d558c8',
+        color2: '#24d292',
+        title: 'Alchemist Lab',
+        index:'087'
+    },
+    {
+        css: 'background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);',
+        color1: '#abecd6',
+        color2: '#fbed96',
+        title: 'Over Sun',
+        index:'088'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);',
+        color1: '',
+        color2: '',
+        title: 'Premium White',
+        index:'089'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);',
+        color1: '#5f72bd',
+        color2: '#9b23ea',
+        title: 'Mars Party',
+        index:'090'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #09203f 0%, #537895 100%);',
+        color1: '#09203f',
+        color2: '#537895',
+        title: 'Eternal Constance',
+        index:'091'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);',
+        color1: '#ddd6f3',
+        color2: '#faaca8',
+        title: 'Japan Blush',
+        index:'092'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);',
+        color1: '#dcb0ed',
+        color2: '#99c99c',
+        title: 'Smiling Rain',
+        index:'093'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);',
+        color1: '#f3e7e9',
+        color2: '#e3eeff',
+        title: 'Cloudy Apple',
+        index:'094'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);',
+        color1: '#c71d6f',
+        color2: '#d09693',
+        title: 'Big Mango',
+        index:'095'
+    },
+    {
+        css: 'background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);',
+        color1: '#96deda',
+        color2: '#50c9c3',
+        title: 'Healthy Water',
+        index:'096'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);',
+        color1: '#f77062',
+        color2: '#fe5196',
+        title: 'Amour Amour',
+        index:'097'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);',
+        color1: '',
+        color2: '',
+        title: 'Risky Concrete',
+        index:'098'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);',
+        color1: '#a8caba',
+        color2: '#5d4157',
+        title: 'Strong Stick',
+        index:'099'
+    },
+    {
+        css: 'background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);',
+        color1: '#29323c',
+        color2: '#485563',
+        title: 'Vicious Stance',
+        index:'100'
+    },
+    {
+        css: 'background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);',
+        color1: '#16a085',
+        color2: '#f4d03f',
+        title: 'Palo Alto',
+        index:'101'
+    },
+    {
+        css: 'background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);',
+        color1: '#ff5858',
+        color2: '#f09819',
+        title: 'Happy Memories',
+        index:'102'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);',
+        color1: '#2b5876',
+        color2: '#4e4376',
+        title: 'Midnight Bloom',
+        index:'103'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%);',
+        color1: '#00cdac',
+        color2: '#8ddad5',
+        title: 'Crystalline',
+        index:'104'
+    },
+    {
+        css: `background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+        background-blend-mode: screen;`,
+        color1: '',
+        color2: '',
+        title: 'Raccoon Back',
+        index:'105'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);',
+        color1: '#4481eb',
+        color2: '#04befe',
+        title: 'Party Bliss',
+        index:'106'
+    },
 
 
 
