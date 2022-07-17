@@ -756,6 +756,385 @@ export const styleConfig: Array<Item> = [
         title: 'Party Bliss',
         index:'106'
     },
+    {
+        css: 'background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);',
+        color1: '#dad4ec',
+        color2: '#f3e7e9',
+        title: 'Confident Cloud',
+        index:'107'
+    },
+    {
+        css: 'background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);',
+        color1: '#874da2',
+        color2: '#c43a30',
+        title: 'Le Cocktail',
+        index:'108'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);',
+        color1: '#4481eb',
+        color2: '#04befe',
+        title: 'River City',
+        index:'109'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);',
+        color1: '#e8198b',
+        color2: '#c7eafd',
+        title: 'Frozen Berry',
+        index:'110'
+    },
+    {
+        css: `background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+        background-blend-mode: screen;`,
+        color1: '',
+        color2: '',
+        title: 'EleganceGet',
+        index:'111'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);',
+        color1: '#f794a4',
+        color2: '#fdd6bd',
+        title: 'Child Care',
+        index:'112'
+    },
+    {
+        css: 'background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);',
+        color1: '#64b3f4',
+        color2: '#c2e59c',
+        title: 'Flying Lemon',
+        index:'113'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);',
+        color1: '',
+        color2: '',
+        title: 'New Retrowave',
+        index:'114'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);',
+        color1: '#0fd850',
+        color2: '#f9f047',
+        title: 'Hidden Jaguar',
+        index:'115'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);',
+        color1: '',
+        color2: '',
+        title: 'Above The Sky',
+        index:'116'
+    },
+    {
+        css: 'background-image: linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);',
+        color1: '#ee9ca7',
+        color2: '#ffdde1',
+        title: 'NegaGet',
+        index:'117'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);',
+        color1: '',
+        color2: '',
+        title: 'Dense Water',
+        index:'118'
+    },
+    {
+        css: `background-color: #CDDCDC;
+        background-image: radial-gradient(at 50% 100%, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), linear-gradient(to bottom, rgba(255,255,255,0.25) 0%, rgba(0,0,0,0.25) 100%);
+        background-blend-mode: screen, overlay;`,
+        color1: '',
+        color2: '',
+        title: 'Chemic Aqua',
+        index:'119'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);',
+        color1: '#209cff',
+        color2: '#68e0cf',
+        title: 'SeashoreGet',
+        index:'120'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);',
+        color1: '#bdc2e8',
+        color2: '#e6dee9',
+        title: 'Marble Wall',
+        index:'121'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);',
+        color1: '#e6b980',
+        color2: '#eacda3',
+        title: 'Cheerful Caramel',
+        index:'122'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);',
+        color1: '#1e3c72',
+        color2: '#2a5298',
+        title: 'Night Sky',
+        index:'123'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);',
+        color1: '',
+        color2: '',
+        title: 'Magic Lake',
+        index:'124'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);',
+        color1: '#9be15d',
+        color2: '#00e3ae',
+        title: 'Young Grass',
+        index:'125'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);',
+        color1: '#ed6ea0',
+        color2: '#ec8c69',
+        title: 'Colorful Peach',
+        index:'126'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);',
+        color1: '#ffc3a0',
+        color2: '#ffafbd',
+        title: 'Gentle Care',
+        index:'127'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);',
+        color1: '#cc208e',
+        color2: '#6713d2',
+        title: 'Plum Bath',
+        index:'128'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #b3ffab 0%, #12fff7 100%);',
+        color1: '#b3ffab',
+        color2: '#12fff7',
+        title: 'Happy Unicorn',
+        index:'129'
+    },
+    {
+        css: `background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+        background-blend-mode: normal,color-burn;`,
+        color1: '',
+        color2: '',
+        title: 'Full MetalGet',
+        index:'130'
+    },
+    {
+        css: 'background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);',
+        color1: '',
+        color2: '',
+        title: 'African Field',
+        index:'131'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);',
+        color1: '#243949',
+        color2: '#517fa4',
+        title: 'Solid Stone',
+        index:'132'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);',
+        color1: '#fc6076',
+        color2: '#ff9a44',
+        title: 'Orange Juice',
+        index:'133'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);',
+        color1: '#dfe9f3',
+        color2: '#ffffff',
+        title: 'Glass Water',
+        index:'134'
+    },
+    {
+        css: `background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+        background-blend-mode: multiply;`,
+        color1: '',
+        color2: '',
+        title: 'Slick Carbon',
+        index:'135'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);',
+        color1: '#00dbde',
+        color2: '#fc00ff',
+        title: 'North Miracle',
+        index:'136'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);',
+        color1: '#f9d423',
+        color2: '#ff4e50',
+        title: 'Fruit Blend',
+        index:'137'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #50cc7f 0%, #f5d100 100%);',
+        color1: '#50cc7f',
+        color2: '#f5d100',
+        title: 'Millennium Pine',
+        index:'138'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);',
+        color1: '#0acffe',
+        color2: '#495aff',
+        title: 'High Flight',
+        index:'139'
+    },
+    {
+        css: 'background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);',
+        color1: '#616161',
+        color2: '#9bc5c3',
+        title: 'Mole Hall',
+        index:'140'
+    },
+    {
+        css: `background-color: #E4E4E1;
+        background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+            background-blend-mode: normal, multiply;`,
+        color1: '',
+        color2: '',
+        title: 'Earl Gray',
+        index:'141'
+    },
+    {
+        css: 'background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);',
+        color1: '',
+        color2: '',
+        title: 'Space Shift',
+        index:'142'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);',
+        color1: '#df89b5',
+        color2: '#bfd9fe',
+        title: 'Forest Inei',
+        index:'143'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);',
+        color1: '#ed6ea0',
+        color2: '#ec8c69',
+        title: 'Royal Garden',
+        index:'144'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);',
+        color1: '#d7d2cc',
+        color2: '#304352',
+        title: 'Rich Metal',
+        index:'145'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);',
+        color1: '#e14fad',
+        color2: '#f9d423',
+        title: 'Juicy Cake',
+        index:'146'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);',
+        color1: '#b224ef',
+        color2: '#7579ff',
+        title: 'Smart Indigo',
+        index:'147'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);',
+        color1: '#c1c161',
+        color2: '#d4d4b1',
+        title: 'Sand Strike',
+        index:'148'
+    },
+    {
+        css: 'background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);',
+        color1: '#ec77ab',
+        color2: '#7873f5',
+        title: 'Norse Beauty',
+        index:'149'
+    },
+    {
+        css: 'background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);',
+        color1: '#007adf',
+        color2: '#00ecbc',
+        title: 'Aqua Guidance',
+        index:'150'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);',
+        color1: '#20E2D7',
+        color2: '#F9FEA5',
+        title: 'Sun Veggi',
+        index:'151'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);',
+        color1: '',
+        color2: '',
+        title: 'Sea Lord',
+        index:'152'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #2CD8D5 0%, #6B8DD6 48%, #8E37D7 100%);',
+        color1: '',
+        color2: '',
+        title: 'Black Sea',
+        index:'153'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%);',
+        color1: '',
+        color2: '',
+        title: 'Grass Shampoo',
+        index:'154'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);',
+        color1: '',
+        color2: '',
+        title: 'Landing Aircraft',
+        index:'155'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);',
+        color1: '#A8BFFF',
+        color2: '#884D80',
+        title: 'Witch Dance',
+        index:'156'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);',
+        color1: '',
+        color2: '',
+        title: 'Sleepless Night',
+        index:'157'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);',
+        color1: '',
+        color2: '',
+        title: 'Angel Care',
+        index:'158'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);',
+        color1: '',
+        color2: '',
+        title: 'Crystal River',
+        index:'159'
+    },
+    
 
 
 
