@@ -5,8 +5,8 @@
         <a href="">{{ title }}</a>
       </h2>
       <div class="nav_link">
-        <a v-for="item in config" :key="item.target" :href="item.target" target="_blank">
-          {{ item.title }}
+        <a v-for="item in config" :key="item.target" :href="item.target" target="_blank" :title="item.title">
+        <i class="iconfont" :class="item.icon"></i>
         </a>
       </div>
     </div>
@@ -26,8 +26,7 @@ export default defineComponent({
     config: {
       type:Object as PropType<navItem[]>,
       default:{
-        target:'',
-        title:''
+        target:''
       }
     }
   },

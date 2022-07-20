@@ -1134,6 +1134,155 @@ export const styleConfig: Array<Item> = [
         title: 'Crystal River',
         index:'159'
     },
+    {
+        css: 'background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);',
+        color1: '#B6CEE8',
+        color2: '#F578DC',
+        title: 'Soft Lipstick',
+        index:'160'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);',
+        color1: '#FFFEFF',
+        color2: '#D7FFFE',
+        title: 'Salt Mountain',
+        index:'161'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);',
+        color1: '#E3FDF5',
+        color2: '#FFE6FA',
+        title: 'Perfect White',
+        index:'162'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);',
+        color1: '#7DE2FC',
+        color2: '#B9B6E5',
+        title: 'Fresh Oasis',
+        index:'163'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);',
+        color1: '#CBBACC',
+        color2: '#2580B3',
+        title: 'Strict November',
+        index:'164'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);',
+        color1: '#B7F8DB',
+        color2: '#50A7C2',
+        title: 'Morning Salad',
+        index:'165'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);',
+        color1: '',
+        color2: '',
+        title: 'Deep Relief',
+        index:'166'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);',
+        color1: '',
+        color2: '',
+        title: 'Sea Strike',
+        index:'167'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);',
+        color1: '',
+        color2: '',
+        title: 'Night Call',
+        index:'168'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);',
+        color1: '',
+        color2: '',
+        title: 'Supreme Sky',
+        index:'169'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%);',
+        color1: '',
+        color2: '',
+        title: 'Light Blue',
+        index:'170'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);',
+        color1: '',
+        color2: '',
+        title: 'Mind Crawl',
+        index:'171'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);',
+        color1: '#007adf',
+        color2: '#00ecbc',
+        title: 'Lily Meadow',
+        index:'172'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);',
+        color1: '',
+        color2: '',
+        title: 'Sugar Lollipop',
+        index:'173'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #7742B2 0%, #F180FF 52%, #FD8BD9 100%);',
+        color1: '',
+        color2: '',
+        title: 'Sweet Dessert',
+        index:'174'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);',
+        color1: '',
+        color2: '',
+        title: 'Magic Ray',
+        index:'175'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);',
+        color1: '',
+        color2: '',
+        title: 'Teen Party',
+        index:'176'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #FF057C 0%, #7C64D5 48%, #4CC3FF 100%);',
+        color1: '',
+        color2: '',
+        title: 'Frozen Heat',
+        index:'177'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);',
+        color1: '',
+        color2: '',
+        title: 'Gagarin View',
+        index:'178'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);',
+        color1: '',
+        color2: '',
+        title: 'Fabled Sunset',
+        index:'179'
+    },
+    {
+        css: 'background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);',
+        color1: '',
+        color2: '',
+        title: 'Perfect Blue',
+        index:'180'
+    },
+    
+
     
 
 

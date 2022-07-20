@@ -1,9 +1,14 @@
 <template>
   <div class="color_item">
     <span class="color_item_title">{{ item.index }} {{ item.title }}</span>
-    <a href="" class="color_item_download_button">download</a>
+    <a href="" class="color_item_download_button">
+      <i class="iconfont icon-xiazai-wenjianxiazai-02"></i>
+    </a>
     <div class="color_item_background" :style="item.css"></div>
-    <div class="color_item_color_box" v-if="item.color1 !== '' || item.color2 !== ''">
+    <div
+      class="color_item_color_box"
+      v-if="item.color1 !== '' || item.color2 !== ''"
+    >
       <span class="color_item_color">{{ item.color1 }}</span>
       <span class="color_item_arrow_symbol">→</span>
       <span class="color_item_color">{{ item.color2 }}</span>
@@ -12,10 +17,6 @@
       <span class="color_item_color">Many colors</span>
     </div>
     <button class="color_item_copy_button" @click="copyEvent">Copy CSS</button>
-    <div class="color_item_copy_css">
-      <textarea class="color_item_copy_text" readonly v-model="item.css"></textarea
-      >
-    </div>
     <div class="color_item_done_copy">
       <div class="color_item_done_copy_box">
         <span class="color_item_emoji">%%%</span>
@@ -27,7 +28,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType, ref } from "vue";
 import { Item } from "../config/styleConfig";
 export default defineComponent({
   name: "colorItem",
@@ -35,7 +36,7 @@ export default defineComponent({
     item: {
       type: Object as PropType<Item>,
       require: true,
-      default:{
+      default: {
         title: "",
         css: "",
         color1: "",
@@ -45,8 +46,21 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const copyEvent = () => {};
+    const textRef = ref(null);
+    const copyEvent = () => {
+      setTimeout(function () {
+        navigator.clipboard.writeText(props.item.css).then(
+          function () {
+            alert("复制成功");
+          },
+          function () {
+            alert("复制失败");
+          }
+        );
+      }, 300);
+    };
     return {
+      textRef,
       copyEvent,
     };
   },
