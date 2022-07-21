@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>zoom-cursor</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M25,12 C25,18.63 19.627,24 13,24 C6.372,24 1,18.63 1,12 C1,5.37 6.372,0 13,0 C19.627,0 25,5.37 25,12 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.109629755 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="zoom-cursor" transform="translate(5.000000, 5.000000)">
+            <g id="SvgjsSvg1000">
+                <g id="SvgjsPath1007">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group" transform="translate(13.000000, 12.500000) rotate(-315.000000) translate(-13.000000, -12.500000) translate(4.000000, 4.000000)" stroke="#333435" stroke-linecap="round">
+                    <path d="M9,17 L9,8.8817842e-15" id="Line"></path>
+                    <path d="M0.5,8.5 L17.5,8.5" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

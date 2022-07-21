@@ -4,7 +4,11 @@
     <a href="" class="color_item_download_button">
       <i class="iconfont icon-xiazai-wenjianxiazai-02"></i>
     </a>
-    <div class="color_item_background" :style="item.css"></div>
+    <div
+      class="color_item_background"
+      :style="item.css"
+      @click="backClick"
+    ></div>
     <div
       class="color_item_color_box"
       v-if="item.color1 !== '' || item.color2 !== ''"
@@ -45,8 +49,10 @@ export default defineComponent({
       },
     },
   },
-  setup(props) {
+  emits: ["itemClick"],
+  setup(props, { emit }) {
     const textRef = ref(null);
+
     const copyEvent = () => {
       setTimeout(function () {
         navigator.clipboard.writeText(props.item.css).then(
@@ -59,9 +65,14 @@ export default defineComponent({
         );
       }, 300);
     };
+
+    const backClick = () => {
+      emit("itemClick", props.item);
+    };
     return {
       textRef,
       copyEvent,
+      backClick,
     };
   },
 });
@@ -105,7 +116,7 @@ input {
     padding-right: 30px;
     text-indent: -5px;
     font-size: 13px;
-    // color: transparent;
+    color: black;
     text-decoration: none;
     transition: color 0.2s ease, text-indent 0.2s ease;
   }
